@@ -63,10 +63,31 @@ const displayOptions = () => {
     }
     optionsContainer.appendChild(buttonCon);
 };
+
+//Word Generator
+const generateWord = (optionValue) => {
+    let optionsButtons = document.querySelectorAll(".options");
+
+    optionsButtons.forEach((button) => {
+        if (button.innerText.toLowerCase() ===
+        optionValue) {
+            button.classList.add("active");
+        }
+        button.disabled = true;
+    });
+};
+
 // initial function( called when page loads/user presses new game)
 const initializer = () => {
     winCount = 0;
     count = 0;
+
+    // for (let i = 65; i < 91; i++) {
+    //     button.classList.add("letters");
+
+    //     button.innerText = String.fromCharCode(i);
+    //     letterContainer.append(button);
+    // }
     displayOptions();
 };
 //New Game
