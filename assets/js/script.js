@@ -53,7 +53,8 @@ let chosenWord = "";
 
 //Display option buttons
 const displayOptions = () => {
-    optionsContainer.innerHTML+=`<h3>Please Select An Option</h3>`;
+    optionsContainer.innerHTML += `<h3>Please Select
+    An Option</h3>`;
     let buttonCon = document.createElement("div");
     for (let value in options) {
         buttonCon.innerHTML += `<button
@@ -62,4 +63,15 @@ const displayOptions = () => {
     }
     optionsContainer.appendChild(buttonCon);
 };
+// initial function( called when page loads/user presses new game)
+const initializer = () => {
+    winCount = 0;
+    count = 0;
+    displayOptions();
+};
+//New Game
+newGameButton.addEventListener("click",
+initializer);
+window.onload = initializer;
+
 
