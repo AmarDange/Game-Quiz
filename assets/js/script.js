@@ -3,19 +3,13 @@
 //"India","Hungary","Kyrgyzstan","Switzerland","Zimbabwe","Dominica"
 
 //Initian References
-const letterContainer = document.getElementById
-("letter-container");
-const optionsContainer = document.getElementById
-("options-container");
-const userInputSection = document.getElementById
-("user-input-section");
-const newGameContainer = document.getElementById
-("new-game-container");
-const newGameButton = document.getElementById
-("new-game-button");
+const letterContainer = document.getElementById("letter-container");
+const optionsContainer = document.getElementById("options-container");
+const userInputSection = document.getElementById("user-input-section");
+const newGameContainer = document.getElementById("new-game-container");
+const newGameButton = document.getElementById("new-game-button");
 const canvas = document.getElementById("canvas");
-const resultText = document.getElementById
-("result-text");
+const resultText = document.getElementById("result-text");
 
 //Options values for buttons
 let options = {
@@ -57,12 +51,26 @@ const displayOptions = () => {
     An Option</h3>`;
     let buttonCon = document.createElement("div");
     for (let value in options) {
-        buttonCon.innerHTML += `<button
-        class="options" onclick="generateWord('${value}
-        ')">${value}</button>`;
+         buttonCon.innerHTML += `<button class="options" onclick="generateWord('${value}')">${value}</button>`;    
     }
     optionsContainer.appendChild(buttonCon);
 };
+
+// Block all the buttons
+const blocker = () => {
+    let optionsButtons = document.querySelectorAll(".options");
+    let letterButtons = document.querySelectorAll(".letters");
+
+    optionsButtons.forEach ((button) => {
+        button.disabled = true;
+    });
+
+    letterButtons.forEach((button) => {
+        button.disabled = true;
+    });
+    newGameContainer.classList.remove("hide");
+}
+
 
 //Word Generator
 const generateWord = (optionValue) => {
@@ -75,7 +83,23 @@ const generateWord = (optionValue) => {
         }
         button.disabled = true;
     });
+
+
+// initial hide letters 
+letterContainer.classList.remove("hide");
+userInputSection.innerText ="";
+
+let optionArray = options[optionValue];
+
+chosenWord = optionArray[Math.floor(Math.random() * optionArray.length)];
+chosenWord = chosenWord.toUpperCase();
+
+let displayItem = chosenWord.replace(/ ./g, '<span class = "dashes">_</span>');
+
+userInputSection.innerHTML = displayItem;
+
 };
+
 
 // initial function( called when page loads/user presses new game)
 const initializer = () => {
