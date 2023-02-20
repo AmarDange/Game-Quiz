@@ -94,7 +94,7 @@ let optionArray = options[optionValue];
 chosenWord = optionArray[Math.floor(Math.random() * optionArray.length)];
 chosenWord = chosenWord.toUpperCase();
 
-let displayItem = chosenWord.replace(/ ./g, '<span class = "dashes">_</span>');
+let displayItem = chosenWord.replace(/./g, '<span class = "dashes">_</span>');
 
 userInputSection.innerHTML = displayItem;
 
@@ -107,7 +107,7 @@ const initializer = () => {
     count = 0;
 
     userInputSection.innerHTML = "";
-    optionsContainer.innerHTML + "";
+    optionsContainer.innerHTML = "";
     letterContainer.classList.add("hide");
     newGameContainer.classList.add("hide");
     letterContainer.innerHTML = "";
