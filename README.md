@@ -34,7 +34,7 @@ In this game the user plays against the computer which will generate a random wo
 * [Deployment](#Deployment)
   * [Local Deployment](#Local-Deployment)
   * [Remote Deployment](#Remote-Deployment)
-  * [Deploy project to Heroku](#Deploy-project-to-Heroku)
+  * [Deploy project to javascript](#Deploy-project-to-javascript)
   
 * [Credits](#Credits)
   * [Code](#Code)
