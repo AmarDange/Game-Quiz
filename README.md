@@ -92,3 +92,24 @@ The target audience is anyone interested in playing a game of hangman. This coul
 * I want to be able to play the game multiple times with a new word.
 
 - - -
+
+
+## Design
+
+### Colour Scheme
+The termcolor module was used to print colored text.
+
+Bright and bold colors were used throughout the game to draw the users attention for a specific purpose or engagement.
+
+Color consistancy is used in the below instances:
+* Yellow is used largely when requesting user input.
+* Black is used largely when the user's chosen name is called alongside text to draw their attention.
+
+
+### Graphics
+* ASCII art was taken from [Texteditor](https://texteditor.com/gallery/)
+* Hangman array was taken from Invent with Javacript.(LINK)
+
+### Flowchart
+Below is the initial design put together using [Lucid Chart](https://lucid.app/) to plan the logic of the game.
+
