@@ -16,7 +16,6 @@ In this game the user plays against the computer which will generate a random wo
 * [Design](#Design)
   * [Colour Scheme](#Colour-Scheme)
   * [Graphics](#Graphics)
-  * [Flowchart](#Flowchart)
   
 * [Features](#Features)
   * [Future features](#Future-features)
@@ -109,21 +108,17 @@ Color consistancy is used in the below instances:
 * ASCII art was taken from [Texteditor](https://texteditor.com/gallery/)
 * Hangman array was taken from Invent with Javacript.(LINK)
 
-### Flowchart
-Below is the initial design put together using [Lucid Chart](https://lucid.app/) to plan the logic of the game.
-
 ## Features
 Below are the main features the user will come across when playing the game. The terminal is cleared each time to make it clean and prevent confusion if the user starts to scroll. The purposeful use of colors as explained in the design section, is also evidenced below.
 
 1. Once the user chooses to play the game, the computer will:
-* wish the user good luck,
-* provide the hint,
+* provide the blank space for hint,
 * advise on the number of tries they get and
 * advise on the length of the word
 
 The gallow and the word to be guessed (marked by underscores for each letter in the word) is displayed before the message requesting user input, to guess a letter. As such, there is a clear set up of the game in order for the user to start playing.
 
-![First feature]
+![First feature](https://github.com/AmarDange/Hangman-quiz/blob/main/docs/firstfeature.JPG)
 
    User input is validated in four ways:
    * if anything other than a letter is entered
