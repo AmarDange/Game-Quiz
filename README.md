@@ -8,7 +8,7 @@ In this game the user plays against the computer which will generate a random wo
 
 [Link to Hangman game](https://amardange.github.io/Hangman-quiz/)
 
-* [How to play](#How-to-play)
+* [How to play](#How to play)
 * [User Experience (UX)](#User-Experience-(UX))
   * [Initial Discussion](#Initial-Discussion)
   * [User Stories](#User-Stories)
