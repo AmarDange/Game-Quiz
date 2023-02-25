@@ -6,7 +6,7 @@ Hangman is a word guessing game. This started out as a paper-and-pencil game tha
 
 In this game the user plays against the computer which will generate a random word to be guessed. Instructions are provided in the game to teach the user how to play.
 
-[Link to Hangman game](https://amardange.github.io/Hangman-Game-Quiz/)
+[Link to Hangman game](https://amardange.github.io/Hangman-quiz/)
 
 * [How to play](#How-to-play)
 * [User Experience (UX)](#User-Experience-(UX))
