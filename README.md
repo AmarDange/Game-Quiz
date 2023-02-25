@@ -101,7 +101,7 @@ The termcolor module was used to print colored text.
 Bright and bold colors were used throughout the game to draw the users attention for a specific purpose or engagement.
 
 Color consistancy is used in the below instances:
-* Yellow is used largely when requesting user input.
+* Pink is used largely when requesting user input.
 * Black is used largely when the user's chosen name is called alongside text to draw their attention.
 
 
