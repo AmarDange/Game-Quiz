@@ -1,4 +1,4 @@
-Hangman
+# Hangman
 
 Hangman is a game which runs on Javascript.
 
