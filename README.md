@@ -144,15 +144,15 @@ The gallow and the word to be guessed (marked by underscores for each letter in 
 
 2. If the user guess is correct, clear feedback is provided confirming the letter is in the word. The word to be guessed is updated for that letter wherever it occurs in the word replacing the underscore(s).
 
-![Fifth feature](docs/features/hangman5.png)
+![Second feature]
 
 3. If the user guess is incorrect, clear feedback is provided confirming the letter is not in the word. The incorrect guess is added to "Incorrect guesses: ", the hangman image is updated and the user is updated on the number of attempts they have left to guess the word.
 
-![Sixth feature](docs/features/hangman6.png)
+![Third feature]
 
 4. If the user runs out of tries, game over is displayed with the hangman image completed. The user is informed of the complete word to provide them with some resolution. 
 
-![Seventh feature]
+![Fourth feature]
 
 5. If the user guesses all the correct letters while they have tries remaining, they win the game. They are rewarded with a trophy and a well done message confirming what the word was. 
 
@@ -164,7 +164,7 @@ The gallow and the word to be guessed (marked by underscores for each letter in 
 
 7. If the user chooses to quit, a good bye message is displayed to thank the user for playing. If the user chooses to play again, they will be returned to feature 4 with a new word to guess.
 
-!Seventh feature
+![Seventh feature]
 
 ### Future features
 * Add difficulty settings where the user can choose from easy or hard mode, the difference being the number of tries they get to guess the word.
