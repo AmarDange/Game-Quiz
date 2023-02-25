@@ -8,6 +8,8 @@ In this game the user plays against the computer which will generate a random wo
 
 [Link to Hangman game](https://amardange.github.io/Hangman-quiz/)
 
+![image](docs/amiresponsive.JPG)
+
 * [How to play](#How-to-play)
 * [User Experience (UX)](#User-Experience-(UX))
   * [Initial Discussion](#Initial-Discussion)
@@ -17,8 +19,8 @@ In this game the user plays against the computer which will generate a random wo
   * [Colour Scheme](#Colour-Scheme)
   * [Graphics](#Graphics)
   
+  
 * [Features](#Features)
-  * [Future features](#Future-features)
 
 * [Technologies Used](#Technologies-Used)
   * [Languages Used](#Languages-Used)
@@ -108,72 +110,51 @@ Color consistancy is used in the below instances:
 * ASCII art was taken from [Texteditor](https://texteditor.com/gallery/)
 * Hangman array was taken from Invent with Javacript.(LINK)
 
+
 ## Features
 Below are the main features the user will come across when playing the game. The terminal is cleared each time to make it clean and prevent confusion if the user starts to scroll. The purposeful use of colors as explained in the design section, is also evidenced below.
 
 1. Once the user chooses to play the game, the computer will:
-* provide the blank space for hint,
-* advise on the number of tries they get and
-* advise on the length of the word
+* provide the window with three diffrent options,
 
-The gallow and the word to be guessed (marked by underscores for each letter in the word) is displayed before the message requesting user input, to guess a letter. As such, there is a clear set up of the game in order for the user to start playing.
+![First feature](docs/firstfeature.JPG)
 
-[First feature](https://github.com/AmarDange/Hangman-quiz/blob/main/docs/firstfeature.JPG)
+2. User has to select one option(from fruits, Animals, Country)to start game.
+  If the user guess is correct, clear feedback is provided confirming the letter is in the word. The word to be guessed is updated for that letter wherever it occurs in the word replacing the underscore(s).
 
-   User input is validated in four ways:
-   * if anything other than a letter is entered
-
-![First user input validation 1]
-
-   * if the length of the guess is more than one (as core rule of the game is to guess a letter at a time)
-
-![First user input validation 2]
-   
-   * if letter guessed has already been guessed
-
-![First user input validation 3]
-
-   * If the user thinks they know the full word they can guess the full word. If their guess is correct the user wins. If not, feedback is provided to the user confirming the word guessed is not the word.
-
-![First user input validation 4]
-
-2. If the user guess is correct, clear feedback is provided confirming the letter is in the word. The word to be guessed is updated for that letter wherever it occurs in the word replacing the underscore(s).
-
-![Second feature]
+![Second feature](docs/secondfeature.JPG)
 
 3. If the user guess is incorrect, clear feedback is provided confirming the letter is not in the word. The incorrect guess is added to "Incorrect guesses: ", the hangman image is updated and the user is updated on the number of attempts they have left to guess the word.
 
-![Third feature]
+![Third feature](docs/thirdfeature.JPG)
 
 4. If the user runs out of tries, game over is displayed with the hangman image completed. The user is informed of the complete word to provide them with some resolution. 
 
-![Fourth feature]
+![Fourth feature](docs/fourthfeature.JPG)
 
-5. If the user guesses all the correct letters while they have tries remaining, they win the game. They are rewarded with a trophy and a well done message confirming what the word was. 
+5. If the user guesses all the correct letters while they have tries remaining, they win the game. They are rewarded with a win message confirming what the word was. 
 
-![Fifth feature]
+![Fifth feature](docs/fifthfeature.JPG)
 
 6. Whether the user wins or loses, the will computer follow up to provide instructions on how the user can proceed if they want quit or play again.
 
-![Sixth feature]
-
-7. If the user chooses to quit, a good bye message is displayed to thank the user for playing. If the user chooses to play again, they will be returned to feature 4 with a new word to guess.
-
-![Seventh feature]
-
-### Future features
-* Add difficulty settings where the user can choose from easy or hard mode, the difference being the number of tries they get to guess the word.
-* Add different word sets to play from i.e. animals, flowers, fruit etc
+![Sixth feature](docs/sixthfeature.JPG)
 
 - - -
 
 ## Technologies Used
 
 ### Languages Used
-Javascript
+- [HTML](https://en.wikipedia.org/wiki/HTML)
+- [css](https://en.wikipedia.org/wiki/CSS)
+- [Javascript](https://en.wikipedia.org/wiki/JavaScript)
 
 ### Frameworks, Libraries & Programs Used
-
+- font awesome: the icon of the Poppins is from Font awesome
+- Git: Git was use commit and push to github
+- GitPod: Gitpod was used as the development environment for this project. In order to 
+  track development stage and version control regular commits and pushes to GitHub has been made. The GitPod environment was created using a template provided by Code Institute.
+- GitHub: Github was used to deploy the site and store it
 
 - - -
 
@@ -203,6 +184,8 @@ This was resolved by simply adding an if statement so that when TRIES = 0 this i
 
 ### Manual Testing
 
+#### responsiveness
+The website is adapted to be seen on different screen sizes. The responsiveness of the website was first tested by chrome developer tools. Different breakpoints where used to view the website. Next to this the website was viewed on different devices: laptop, tablet and smartphones.
 
 - - -
 
@@ -244,3 +227,4 @@ The website was deployed to GitHub Pages as follows:
 
 ### Acknowledgements 
 Thank you to anyone taking the time to view my third project. Special thanks to the Slack community and the below individuals:
+
