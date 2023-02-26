@@ -32,13 +32,9 @@ In this game the user plays against the computer which will generate a random wo
   * [Validator Testing](#Validator-Testing)
 
 * [Deployment](#Deployment)
-  * [Local Deployment](#Local-Deployment)
-  * [Remote Deployment](#Remote-Deployment)
-  * [Deploy project to javascript](#Deploy-project-to-javascript)
   
 * [Credits](#Credits)
   * [Code](#Code)
-  * [Content](#Content)
   * [Acknowledgements](#Acknowledgements)
 
 - - -
@@ -179,7 +175,7 @@ The website is adapted to be seen on different screen sizes. The responsiveness 
 - - -
 #### Validator Testing
 
-1. HTML No errors where found by the official W3C validator
+1. HTML No errors where found by the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Famardange.github.io%2FHangman-quiz%2Findex.html)
 2. CSS No errors where found by the official [Jigsaw validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Famardange.github.io%2FHangman-quiz%2Fstyle.css)
 3. JSHint No errors where found by the official JSHint validator
   ![JSHintvalidator](docs/jshintvalidator.JPG)
@@ -187,29 +183,17 @@ The website is adapted to be seen on different screen sizes. The responsiveness 
 
 ## Deployment 
 
-### Local Deployment
+The live version of the project is deployed at GitHub pages.
 
-#### How to Clone
+The procedure for deployment followed the "Creating your site" steps provided in GitHub Docs.
 
-
-
-#### How to Fork
-1. Sign up or log in to GitHub
-2. Go to the repository 
-3. Click on the fork button towards the top right of the page 
-
-### Remote Deployment
-The website was deployed to GitHub Pages as follows:
-1. Log in to GitHub
-2. Assuming you have cloned or forked the repository, go on the "Settings" link for this repository
-3. Click on the "Pages" link on the left hand side of the page
-4. Under "Source" select "Deploy from branch" from the dropdown
-5. Under "Branch" select "main" from the dropdown
-6. Click "Save" which will then refresh the page
-7. It might take a few mins before you can refresh and view the link to the site published
-
-### Deploy project
-
+1. Log into GitHub.
+2. Locate the GitHub Repository that shall be deployed live.
+3. At the top of the repository, select Settings from the menu items.
+4. Scroll down the Settings page to the ”GitHub Pages" section and click on the ”Check it out here!”
+5. At the ”Source” section choose ”main” as Branch and root as folder and click ”Save”
+6. The website will deploy and the pages refreshes to provide the live link to the project.
+  The link can be found here: https://amardange.github.io/Hangman-quiz/
 
 - - -
 
@@ -217,10 +201,10 @@ The website was deployed to GitHub Pages as follows:
 
 ### Code
 
-
-### Content
-
+- The basic code used was taken from a youtube tutorial from Mithali with a bunch of alterations.
+- On the website of the w3schools I found a lot of information and codes for bugs and small changes to make.
+- Varies parts of the website were inspired by the love math walkthrough project from Code institute.
 
 ### Acknowledgements 
-Thank you to anyone taking the time to view my third project. Special thanks to the Slack community and the below individuals:
+Thank you to anyone taking the time to view my second project. Special thanks to the Slack community.
 
