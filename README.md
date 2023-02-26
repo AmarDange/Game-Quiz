@@ -164,10 +164,12 @@ Issues discussed in my project with my code institute colleagues.
 
 ### Unfixed Bugs
 
+1. On Mobile S -320px , responsiveness is not accurate.
+
 ### Manual Testing
 
 #### responsiveness
-The website is adapted to be seen on different screen sizes. The responsiveness of the website was first tested by chrome developer tools. Different breakpoints where used to view the website. Next to this the website was viewed on different devices: laptop, tablet and smartphones.
+The website is adapted to be seen on different screen sizes. The responsiveness of the website was first tested by chrome developer tools. Different breakpoints where used to view the website. Next to this the website was viewed on different devices: laptop, tablet.
 
 - - -
 #### Validator Testing
