@@ -17,7 +17,6 @@ In this game the user plays against the computer which will generate a random wo
 
 * [Design](#Design)
   * [Colour Scheme](#Colour-Scheme)
-  * [Graphics](#Graphics)
   
   
 * [Features](#Features)
@@ -27,7 +26,8 @@ In this game the user plays against the computer which will generate a random wo
   * [Frameworks, Libraries & Programs Used](#Frameworks,-Libraries-&-Programs-Used)
 
 * [Testing](#Testing)
-  * [Solved Bugs](#Solved-Bugs)
+  * [Fixed Bugs](#Fixed-Bugs)
+  * [Unfixed Bugs](#Unfixed-Bugs)
   * [Manual Testing](#Manual-Testing)
   * [Validator Testing](#Validator-Testing)
 
@@ -101,16 +101,11 @@ Color consistancy is used in the below instances:
 * Black is used largely when the user's chosen name is called alongside text to draw their attention.
 
 
-### Graphics
-* ASCII art was taken from [Texteditor](https://texteditor.com/gallery/)
-* Hangman array was taken from Invent with Javacript.(LINK)
-
-
 ## Features
 Below are the main features the user will come across when playing the game. The terminal is cleared each time to make it clean and prevent confusion if the user starts to scroll. The purposeful use of colors as explained in the design section, is also evidenced below.
 
 1. Once the user chooses to play the game, the computer will:
-* provide the window with three diffrent options,
+  * provide the window with three diffrent options,
 
 ![First feature](docs/firstfeature.JPG)
 
@@ -145,8 +140,9 @@ Below are the main features the user will come across when playing the game. The
 - [Javascript](https://en.wikipedia.org/wiki/JavaScript)
 
 ### Frameworks, Libraries & Programs Used
+- [Am I responsive?](https://ui.dev/amiresponsive) - to show game across a range of devices.
 - font awesome: the icon of the Poppins is from Font awesome
-- Git: Git was use commit and push to github
+- Git: Git was use to commit and push to github
 - GitPod: Gitpod was used as the development environment for this project. In order to 
   track development stage and version control regular commits and pushes to GitHub has been made. The GitPod environment was created using a template provided by Code Institute.
 - GitHub: Github was used to deploy the site and store it
@@ -159,13 +155,14 @@ Issues discussed in my project with my code institute colleagues.
 1. It was suggested that to improve user experience, the user should be able to guess the full word if they think they know what the word is, rather than enter letter by letter to complete the word. They ask_for_input function was updated to account for this, which made for a better user experience. 
 
 
-### Solved Bugs
+### Fixed Bugs
 
 1. The equality between WORD and guess was failing as WORD was not printing in capitalised letters, like guess. Therefore, WORD.upper() was used to resolve this.
 
 2. The incorrect guesses were displaying above the game over display for when the user uses all tries and is hanged.
   This was resolved by simply adding an if statement so that when TRIES = 0 this is not displayed to the game over screen.
 
+### Unfixed Bugs
 
 ### Manual Testing
 
