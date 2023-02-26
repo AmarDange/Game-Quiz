@@ -29,6 +29,7 @@ In this game the user plays against the computer which will generate a random wo
 * [Testing](#Testing)
   * [Solved Bugs](#Solved-Bugs)
   * [Manual Testing](#Manual-Testing)
+  * [Validator Testing](#Validator-Testing)
 
 * [Deployment](#Deployment)
   * [Local Deployment](#Local-Deployment)
@@ -157,19 +158,17 @@ Below are the main features the user will come across when playing the game. The
 - - -
 
 ## Testing 
-Issues raised in my project meetings with my mentor 
+Issues discussed in my project with my code institute colleagues. 
 
-1. It was suggested that to improve user experience, the user should be able to guess the full word if they think they know what the word is, rather than enter letter by letter to complete the word. The ask_for_input function was updated to account for this, which made for a better user experience. 
+1. It was suggested that to improve user experience, the user should be able to guess the full word if they think they know what the word is, rather than enter letter by letter to complete the word. They ask_for_input function was updated to account for this, which made for a better user experience. 
+
 
 ### Solved Bugs
 
-1. Correct guesses were not displaying to the word. After consulting with my mentor and adding print statements, the issue became apparent (see credits). The equality between WORD and guess was failing as WORD was not printing in capitalised letters, like guess. Therefore, WORD.upper() was used to resolve this.
+1. The equality between WORD and guess was failing as WORD was not printing in capitalised letters, like guess. Therefore, WORD.upper() was used to resolve this.
 
-3. The incorrect guesses were displaying above the game over display for when the user uses all tries and is hanged.
-
-
-
-This was resolved by simply adding an if statement so that when TRIES = 0 this is not displayed to the game over screen.
+2. The incorrect guesses were displaying above the game over display for when the user uses all tries and is hanged.
+  This was resolved by simply adding an if statement so that when TRIES = 0 this is not displayed to the game over screen.
 
 
 ### Manual Testing
@@ -178,6 +177,13 @@ This was resolved by simply adding an if statement so that when TRIES = 0 this i
 The website is adapted to be seen on different screen sizes. The responsiveness of the website was first tested by chrome developer tools. Different breakpoints where used to view the website. Next to this the website was viewed on different devices: laptop, tablet and smartphones.
 
 - - -
+#### Validator Testing
+
+1. HTML No errors where found by the official W3C validator
+2. CSS No errors where found by the official [Jigsaw validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Famardange.github.io%2FHangman-quiz%2Fstyle.css)
+3. JSHint No errors where found by the official JSHint validator
+  ![JSHintvalidator](docs/jshintvalidator.JPG)
+
 
 ## Deployment 
 
