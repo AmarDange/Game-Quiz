@@ -28,8 +28,6 @@ In this game the user plays against the computer which will generate a random wo
 
 * [Testing](#Testing)
   * [Solved Bugs](#Solved-Bugs)
-  * [Known Bugs](#Known-Bugs)
-  * [PEP8](#PEP8)
   * [Manual Testing](#Manual-Testing)
 
 * [Deployment](#Deployment)
@@ -172,14 +170,6 @@ Issues raised in my project meetings with my mentor
 
 
 This was resolved by simply adding an if statement so that when TRIES = 0 this is not displayed to the game over screen.
-
-
-
-### Known Bugs
-
-
-
-### PEP8 
 
 
 ### Manual Testing
