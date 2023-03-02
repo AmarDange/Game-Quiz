@@ -162,14 +162,12 @@ Issues discussed in my project with my code institute colleagues.
 2. The incorrect guesses were displaying above the game over display for when the user uses all tries and is hanged.
   This was resolved by simply adding an if statement so that when TRIES = 0 this is not displayed to the game over screen.
 
-### Unfixed Bugs
-
-1. On Mobile S -320px , responsiveness is not accurate.
+3. On mobile device responsiveness is not good so as per suggestion by my mentor I use justify-content space-around and give canvas width 100% and now it is working on mobiles very nicely.
 
 ### Manual Testing
 
 #### responsiveness
-The website is adapted to be seen on different screen sizes. The responsiveness of the website was first tested by chrome developer tools. Different breakpoints where used to view the website. Next to this the website was viewed on different devices: laptop, tablet.
+The website is adapted to be seen on different screen sizes. The responsiveness of the website was first tested by chrome developer tools. Different breakpoints where used to view the website. Next to this the website was viewed on different devices: laptop, tablet and mobile.
 
 - - -
 #### Validator Testing
