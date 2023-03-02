@@ -99,6 +99,7 @@
   }
   #result-text span {
     font-weight: 600;
+    color: red;
   }
   #new-game-button {
     font-size: 1.25em;
