@@ -66,7 +66,7 @@ The target audience is anyone interested in playing a game of hangman. This coul
 #### Key information:
 * Win or lose the user is given an option to play again
 
-### User Stories
+### Goals
 
 #### Client Goals
 * To entertain users
@@ -136,7 +136,7 @@ Below are the main features the user will come across when playing the game. The
 
 ### Languages Used
 - [HTML](https://en.wikipedia.org/wiki/HTML)
-- [css](https://en.wikipedia.org/wiki/CSS)
+- [CSS](https://en.wikipedia.org/wiki/CSS)
 - [Javascript](https://en.wikipedia.org/wiki/JavaScript)
 
 ### Frameworks, Libraries & Programs Used
@@ -157,12 +157,10 @@ Issues discussed in my project with my code institute colleagues.
 
 ### Fixed Bugs
 
-1. The equality between WORD and guess was failing as WORD was not printing in capitalised letters, like guess. Therefore, WORD.upper() was used to resolve this.
-
-2. The incorrect guesses were displaying above the game over display for when the user uses all tries and is hanged.
+1. The incorrect guesses were displaying above the game over display for when the user uses all tries and is hanged.
   This was resolved by simply adding an if statement so that when TRIES = 0 this is not displayed to the game over screen.
 
-3. On mobile device responsiveness is not good so as per suggestion by my mentor I use justify-content space-around and give canvas width 100% and now it is working on mobiles very nicely.
+2. On mobile device responsiveness is not good so as per suggestion by my mentor I use justify-content space-around and give canvas width 100% and now it is working on mobiles very nicely.
 
 ### Manual Testing
 
