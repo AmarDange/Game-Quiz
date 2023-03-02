@@ -26,7 +26,7 @@
   #options-container div {
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     margin: 1.2em 0 2.4em 0;
   }
   #options-container button {
