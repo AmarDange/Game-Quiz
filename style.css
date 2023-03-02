@@ -114,3 +114,7 @@
   .lose-msg {
     color: #fe5152;
   }
+  h1{
+    text-align: center;
+    color: red;
+  }
