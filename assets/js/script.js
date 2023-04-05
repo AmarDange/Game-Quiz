@@ -95,12 +95,15 @@ const generateWord = (optionValue) => {
 
   
   userInputSection.innerHTML = displayItem;
+  userInputSection.innerHTML += `<div id='chanceCount'>Chances Left: ${lossCount}</div>`;
 };
 
 
 const initializer = () => {
   winCount = 0;
+  lossCount = 0;
   count = 0;
+  lossCount = 6;
 
   
   userInputSection.innerHTML = "";
@@ -128,15 +131,25 @@ const initializer = () => {
             dashes[index].innerText = char;
             
             winCount += 1;
+
+            
             
             if (winCount == charArray.length) {
               resultText.innerHTML = `<h2 class='win-msg'>You Win!!</h2><p>The word was <span>${chosenWord}</span></p>`;
               
               blocker();
+
             }
           }
         });
       } else {
+
+
+        button.classList.add("incorrect");
+              lossCount -= 1;
+              document.getElementById(
+                "chanceCount"
+              ).innerText = `Chances Left: ${lossCount}`;
       
         count += 1;
        
@@ -145,6 +158,8 @@ const initializer = () => {
         if (count == 6) {
           resultText.innerHTML = `<h2 class='lose-msg'>You Lose!!</h2><p>The word was <span>${chosenWord}</span></p>`;
           blocker();
+
+
         }
       }
       
