@@ -8,6 +8,16 @@ const newGameContainer = document.getElementById("new-game-container");
 const newGameButton = document.getElementById("new-game-button");
 const canvas = document.getElementById("canvas");
 const resultText = document.getElementById("result-text");
+const startBtn = document.getElementById("start");
+const controls = document.querySelector(".controls-container");
+
+
+//Start Game
+startBtn.addEventListener("click", () => {
+  controls.classList.add("hide");
+  init();
+});
+
 
 /**
  * Options values for buttons
