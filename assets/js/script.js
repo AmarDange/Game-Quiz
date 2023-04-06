@@ -103,7 +103,7 @@ const generateWord = (optionValue) => {
   
   let displayItem = chosenWord.replace(/./g, '<span class="dashes">_</span>');
 
-  
+
   userInputSection.innerHTML = displayItem;
   userInputSection.innerHTML += `<div id='chanceCount'>Chances Left: ${lossCount}</div>`;
 };
