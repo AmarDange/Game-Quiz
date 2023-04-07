@@ -11,11 +11,29 @@ const resultText = document.getElementById("result-text");
 const startBtn = document.getElementById("start");
 const controls = document.querySelector(".controls-container");
 
+const TIMER_COUNT_SECONDS = 60;
+
+function startTimer(callback) {
+  const timerComponent = document.getElementById("timer");
+  
+  let counter = TIMER_COUNT_SECONDS;
+  const intervalId = setInterval(function () {
+
+    counter--;
+      timerComponent.textContent = `Seconds Left: ${counter}`;
+
+      if (counter <= 0) {
+          callback();
+      }
+  }, 1000);
+
+  return intervalId;
+}
 
 //Start Game
 startBtn.addEventListener("click", () => {
   controls.classList.add("hide");
-  init();
+  // init();
 });
 
 
@@ -54,6 +72,8 @@ let count = 0;
 
 let chosenWord = "";
 
+let timerIntervalId = null;
+
 
 const displayOptions = () => {
   optionsContainer.innerHTML += `<h3>Please Select An Option</h3>`;
@@ -64,6 +84,21 @@ const displayOptions = () => {
   optionsContainer.appendChild(buttonCon);
 };
 
+
+const gameOver = (win) => {
+  if (timerIntervalId) {
+    clearInterval(timerIntervalId);
+    timerIntervalId = null;
+  }
+
+  if (win) {
+    resultText.innerHTML = `<h2 class='win-msg'>You Win!!</h2><p>The word was <span>${chosenWord}</span></p>`;
+              
+  } else {
+    resultText.innerHTML = `<h2 class='lose-msg'>You Lose!!</h2><p>The word was <span>${chosenWord}</span></p>`; 
+  }
+  blocker();
+}
 
 const blocker = () => {
   let optionsButtons = document.querySelectorAll(".options");
@@ -105,13 +140,22 @@ const generateWord = (optionValue) => {
 
 
   userInputSection.innerHTML = displayItem;
-  userInputSection.innerHTML += `<div id='chanceCount'>Chances Left: ${lossCount}</div>`;
+  userInputSection.innerHTML += `
+    <div>
+    <div id='chanceCount'>Chances Left: ${lossCount}</div>
+    <div id='timer'>Seconds Left: ${TIMER_COUNT_SECONDS}</div>
+    </div>
+  `;
+
+  
+  timerIntervalId = startTimer(function() {
+    gameOver(false);
+  });
 };
 
 
 const initializer = () => {
   winCount = 0;
-  lossCount = 0;
   count = 0;
   lossCount = 6;
 
@@ -145,9 +189,10 @@ const initializer = () => {
             
             
             if (winCount == charArray.length) {
-              resultText.innerHTML = `<h2 class='win-msg'>You Win!!</h2><p>The word was <span>${chosenWord}</span></p>`;
+              // resultText.innerHTML = `<h2 class='win-msg'>You Win!!</h2><p>The word was <span>${chosenWord}</span></p>`;
               
-              blocker();
+              // blocker();
+              gameOver(true);
 
             }
           }
@@ -166,9 +211,9 @@ const initializer = () => {
         drawMan(count);
        
         if (count == 6) {
-          resultText.innerHTML = `<h2 class='lose-msg'>You Lose!!</h2><p>The word was <span>${chosenWord}</span></p>`;
-          blocker();
-
+          // resultText.innerHTML = `<h2 class='lose-msg'>You Lose!!</h2><p>The word was <span>${chosenWord}</span></p>`;
+          // blocker();
+          gameOver(false);
 
         }
       }
