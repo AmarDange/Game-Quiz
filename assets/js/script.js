@@ -43,26 +43,27 @@ startBtn.addEventListener("click", () => {
 let options = {
   fruits: [
     "Apple",
-    "Blueberry",
-    "Mandarin",
+    "Strawberry",
+    "Orange",
     "Pineapple",
-    "Pomegranate",
+    "Mango",
     "Watermelon",
   ],
   animals: [
-    "Hedgehog", 
-    "Rhinoceros", 
-    "Squirrel", "Panther", 
-    "Walrus", 
+    "Elephant", 
+    "Tiger", 
+    "Squirrel",
+    "Panther", 
+    "Lion", 
     "Zebra"
   ],
   countries: [
     "India",
     "Hungary",
-    "Kyrgyzstan",
+    "Canada",
     "Switzerland",
-    "Zimbabwe",
-    "Dominica",
+    "SouthAfrica",
+    "Italy",
   ],
 };
 
@@ -186,14 +187,8 @@ const initializer = () => {
             
             winCount += 1;
 
-            
-            
             if (winCount == charArray.length) {
-              // resultText.innerHTML = `<h2 class='win-msg'>You Win!!</h2><p>The word was <span>${chosenWord}</span></p>`;
-              
-              // blocker();
               gameOver(true);
-
             }
           }
         });
@@ -211,8 +206,6 @@ const initializer = () => {
         drawMan(count);
        
         if (count == 6) {
-          // resultText.innerHTML = `<h2 class='lose-msg'>You Lose!!</h2><p>The word was <span>${chosenWord}</span></p>`;
-          // blocker();
           gameOver(false);
 
         }
