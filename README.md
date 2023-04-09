@@ -202,19 +202,46 @@ Below are the main features the user will come across when playing the game. The
 - [Javascript](https://en.wikipedia.org/wiki/JavaScript)
 
 ### Frameworks, Libraries & Programs Used
-- [Am I responsive?](https://ui.dev/amiresponsive) - to show game across a range of devices.
-- font awesome: the icon of the Poppins is from Font awesome
-- Git: Git was use to commit and push to github
-- GitPod: Gitpod was used as the development environment for this project. In order to 
-  track development stage and version control regular commits and pushes to GitHub has been made. The GitPod environment was created using a template provided by Code Institute.
-- GitHub: Github was used to deploy the site and store it
+-   [Google Fonts:](https://fonts.google.com/) was used to import the 'Lato' and 'Oswald' fonts into the style.css file which are used on all pages of the project.
+-   [Font Awesome:](https://fontawesome.com/) was used to add icons for aesthetic and UX purposes.
+-   [Am I responsive?](https://ui.dev/amiresponsive) - to show game across a range of devices.
+-   Git - for version control. 
+-   GitHub - to save and store the code pushed from Git.
+-   GitPod - using GitPod terminal to commit to Git and push to GitHub.
+-   [Microsoft Paint 3D:](https://www.microsoft.com/en-us/p/paint-3d/9nblggh5fv99?activetab=pivot:overviewtab) was used for resizing images and editing photos for the      website.
 
 - - -
 
 ## Testing 
-Issues discussed in my project with my code institute colleagues. 
+### Validator Testing
 
-1. It was suggested that to improve user experience, the user should be able to guess the full word if they think they know what the word is, rather than enter letter by letter to complete the word. They ask_for_input function was updated to account for this, which made for a better user experience. 
+- [HTML Validator](https://validator.w3.org/)
+
+    - result for [index.html](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Famardange.github.io%2FArchana-Bazaar%2Findex.html)
+    - result for [books.html](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Famardange.github.io%2FArchana-Bazaar%2Fbooks.html)
+    - result for [gallery.html](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Famardange.github.io%2FArchana-Bazaar%2Fgallery.html)
+    - result for [contact.html](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Famardange.github.io%2FArchana-Bazaar%2Fcontact.html)
+
+- [CSS Validator](https://jigsaw.w3.org/css-validator/)
+
+    - result for [styles.css](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Famardange.github.io%2FArchana-Bazaar%2Fstyle.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+     
+### Browser Compatibility
+
+- Testing has been carried out on the following browsers :
+    - Chrome Version 90.0.4430.212 (Official Build) (64-bit)
+    - Firefox Version 88.0.1 (64-bit)
+    - Edge Version 90.0.818.62 (Official build) (64-bit)
+    - Safari on macOS Catalina (Safari  Version 14.0.3)
+    
+### Test Cases and Results
+
+- The below table details the test cases that were used, the results and a cross-reference to the Feature ID that each test case exercised:
+    
+    <details>
+      <summary>Test Case & Results</summary>
+      <img src = "docs/manual_testing.png">
+      </details> 
 
 
 ### Fixed Bugs
@@ -223,19 +250,6 @@ Issues discussed in my project with my code institute colleagues.
   This was resolved by simply adding an if statement so that when TRIES = 0 this is not displayed to the game over screen.
 
 2. On mobile device responsiveness is not good so as per suggestion by my mentor I use justify-content space-around and give canvas width 100% and now it is working on mobiles very nicely.
-
-### Manual Testing
-
-#### responsiveness
-The website is adapted to be seen on different screen sizes. The responsiveness of the website was first tested by chrome developer tools. Different breakpoints where used to view the website. Next to this the website was viewed on different devices: laptop, tablet and mobile.
-
-- - -
-#### Validator Testing
-
-1. HTML No errors where found by the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Famardange.github.io%2FHangman-quiz%2Findex.html)
-2. CSS No errors where found by the official [Jigsaw validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Famardange.github.io%2FHangman-quiz%2Fstyle.css)
-3. JSHint No errors where found by the official JSHint validator
-  ![JSHintvalidator](docs/jshintvalidator.JPG)
 
 
 ## Deployment 
