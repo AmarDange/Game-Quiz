@@ -28,7 +28,7 @@ In this game the user plays against the computer which will generate a random wo
 * [Testing](#Testing)
   * [Validator Testing](#Validator-Testing)
   * [Browser Compatibility](#Browser-Compatibility)
-  * [Test Cases and Results](Test-Cases-and-Results)
+  * [Test Cases and Results](#Test-Cases-and-Results)
   * [Fixed Bugs](#Fixed-Bugs)
 
 * [Deployment](#Deployment)
