@@ -106,7 +106,7 @@ Color consistancy is used in the below instances:
 ## Existing Features
 Below are the main features the user will come across when playing the game. The terminal is cleared each time to make it clean and prevent confusion if the user starts to scroll. The purposeful use of colors as explained in the design section, is also evidenced below.
 
-### Start Button Page
+#### Start Button Page
  - Once the user chooses to Start the game, the computer will dsiplay below screen
 
 <details>
