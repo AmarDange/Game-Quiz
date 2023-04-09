@@ -19,7 +19,7 @@ In this game the user plays against the computer which will generate a random wo
   * [Colour Scheme](#Colour-Scheme)
   
   
-* [Features](#Features)
+* [Existing Features](#Existing-Features)
 
 * [Technologies Used](#Technologies-Used)
   * [Languages Used](#Languages-Used)
@@ -70,23 +70,23 @@ The target audience is anyone interested in playing a game of hangman. This coul
 ### Goals
 
 #### A. Client Goals
-* To entertain users
-* To be able to learn how to play
-* To make it easy for users to interact with the game
-* To be clearly informed of invalid input and how to proceed
-* Win or lose, to play the game to completion without issue
-* To be able to choose to play again or quit
+* 1. To entertain users
+* 2. To be able to learn how to play
+* 3. To make it easy for users to interact with the game
+* 4. To be clearly informed of invalid input and how to proceed
+* 5. Win or lose, to play the game to completion without issue
+* 6. To be able to choose to play again or quit
 
 #### B. First Time Visitor Goals
-* I want to be able to learn how to play.
-* I want to be informed on what the issue is if an invalid input is made.
-* I want to be given instant feedback if a correct or incorrect guess is made.
-* I want to be able to guess the full word if I think I know what it is.
-* I want to be informed when the game is over, if I've won or lost.
-* I want to be able to play again or quit.
+* 1. I want to be able to learn how to play.
+* 2. I want to be informed on what the issue is if an invalid input is made.
+* 3. I want to be given instant feedback if a correct or incorrect guess is made.
+* 4. I want to be able to guess the full word if I think I know what it is.
+* 5. I want to be informed when the game is over, if I've won or lost.
+* 6. I want to be able to play again or quit.
 
 #### C. Returning Visitor Goals
-* I want to be able to play the game multiple times with a new word.
+* 1. I want to be able to play the game multiple times with a new word.
 
 - - -
 
@@ -98,38 +98,99 @@ The termcolor module was used to print colored text.
 Bright and bold colors were used throughout the game to draw the users attention for a specific purpose or engagement.
 
 Color consistancy is used in the below instances:
+* Blue is used largely to start a game page
 * Pink is used largely when requesting user input.
 * Black is used largely when the user's chosen name is called alongside text to draw their attention.
 
 
-## Features
+## Existing Features
 Below are the main features the user will come across when playing the game. The terminal is cleared each time to make it clean and prevent confusion if the user starts to scroll. The purposeful use of colors as explained in the design section, is also evidenced below.
 
-1. Once the user chooses to play the game, the computer will:
-  * provide the window with three diffrent options,
+### Start Button Page
+ - Once the user chooses to Start the game, the computer will dsiplay below screen
 
-![First feature](docs/firstfeature.JPG)
+<details>
+<summary>Start Button</summary>
+<img src = "docs/navigationbar.PNG">
+</details>
 
-2. User has to select one option(from fruits, Animals, Country)to start game.
-  If the user guess is correct, clear feedback is provided confirming the letter is in the word. The word to be guessed is updated for that letter wherever it occurs in the word replacing the underscore(s).
+### Game Option Page
+ - When user clicked on "Start" Button then second page will apppear with three option i.e. Fruits, Animal, Countries.
+ - Also user can see Hangman draw window below of alphabet letters.
 
-![Second feature](docs/secondfeature.JPG)
+<details>
+<summary>Game Option Page</summary>
+<img src = "docs/navigationbar.PNG">
+</details>
 
-3. If the user guess is incorrect, clear feedback is provided confirming the letter is not in the word. The incorrect guess is added to "Incorrect guesses: ", the hangman image is updated and the user is updated on the number of attempts they have left to guess the word.
+### Select Option Button
+ - User has to select one option from fruits, Animals, Country to play game.
+ - Once user select one option then window will show all alphabets to select word
+ - Also timer of 60 second and chances left tab will be appear.
+ 
+<details>
+<summary>Option Page</summary>
+<img src = "docs/navigationbar.PNG">
+</details>
 
-![Third feature](docs/thirdfeature.JPG)
+### Correct word guess
+ - If the user guess is correct, clear feedback is provided confirming the letter is in the word. The word to be guessed is updated for that letter wherever it occurs in the word replacing the underscore's.
 
-4. If the user runs out of tries, game over is displayed with the hangman image completed. The user is informed of the complete word to provide them with some resolution. 
+<details>
+<summary>Correct Guess</summary>
+<img src = "docs/navigationbar.PNG">
+</details>
 
-![Fourth feature](docs/fourthfeature.JPG)
+### Incorrect word guess
+ - If the user guess is incorrect, clear feedback is provided confirming the letter is not in the word. The incorrect guess is added to "Incorrect guesses: ", the hangman image is updated and the user is updated on the number of attempts they have left to guess the word.
 
-5. If the user guesses all the correct letters while they have tries remaining, they win the game. They are rewarded with a win message confirming what the word was. 
+<details>
+<summary>Incorrect Guess</summary>
+<img src = "docs/navigationbar.PNG">
+</details>
 
-![Fifth feature](docs/fifthfeature.JPG)
+### Chances Left
+ - If the user runs out of tries, game over is displayed with the hangman image completed & chances left will be zero. The user is informed of the complete word to provide them with some resolution. 
 
-6. Whether the user wins or loses, the will computer follow up to provide instructions on how the user can proceed if they want quit or play again.
+<details>
+<summary>Chances Left</summary>
+<img src = "docs/navigationbar.PNG">
+</details>
 
-![Sixth feature](docs/sixthfeature.JPG)
+
+### Run out of time
+4. If the user runs out of time with 60 second, game over is displayed with the hangman image completed. The user is informed of the complete word to provide them with some resolution.
+
+<details>
+<summary>Run out of time</summary>
+<img src = "docs/navigationbar.PNG">
+</details>
+
+
+### Win Game
+ - If the user guesses all the correct letters while they have tries & time remaining, They are rewarded with a win message confirming what the word was. 
+
+<details>
+<summary>Win Game</summary>
+<img src = "docs/navigationbar.PNG">
+</details>
+
+### Lose Game
+ - Whether the user loses the game, then computer will show follow up window with Lose game messsage and Correct answer will be displayed. Also "new game" button will be displayes
+
+<details>
+<summary>Lose Game</summary>
+<img src = "docs/navigationbar.PNG">
+</details>
+
+### New Game Button
+ - Whether the user wins or lose the game and user wants to play it again, then there is "New Game" button option is provided and user can be proceed if they want to play game again.
+
+<details>
+<summary>New Game</summary>
+<img src = "docs/navigationbar.PNG">
+</details>
+ 
 
 - - -
 
