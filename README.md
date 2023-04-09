@@ -70,23 +70,23 @@ The target audience is anyone interested in playing a game of hangman. This coul
 ### Goals
 
 #### A. Client Goals
-* 1. To entertain users
-* 2. To be able to learn how to play
-* 3. To make it easy for users to interact with the game
-* 4. To be clearly informed of invalid input and how to proceed
-* 5. Win or lose, to play the game to completion without issue
-* 6. To be able to choose to play again or quit
+ 1. To entertain users
+ 2. To be able to learn how to play
+ 3. To make it easy for users to interact with the game
+ 4. To be clearly informed of invalid input and how to proceed
+ 5. Win or lose, to play the game to completion without issue
+ 6. To be able to choose to play again or quit
 
 #### B. First Time Visitor Goals
-* 1. I want to be able to learn how to play.
-* 2. I want to be informed on what the issue is if an invalid input is made.
-* 3. I want to be given instant feedback if a correct or incorrect guess is made.
-* 4. I want to be able to guess the full word if I think I know what it is.
-* 5. I want to be informed when the game is over, if I've won or lost.
-* 6. I want to be able to play again or quit.
+ 1. I want to be able to learn how to play.
+ 2. I want to be informed on what the issue is if an invalid input is made.
+ 3. I want to be given instant feedback if a correct or incorrect guess is made.
+ 4. I want to be able to guess the full word if I think I know what it is.
+ 5. I want to be informed when the game is over, if I've won or lost.
+ 6. I want to be able to play again or quit.
 
 #### C. Returning Visitor Goals
-* 1. I want to be able to play the game multiple times with a new word.
+ 1. I want to be able to play the game multiple times with a new word.
 
 - - -
 
