@@ -231,7 +231,8 @@ Below are the main features the user will come across when playing the game. The
   <img src = "docs/jshint.PNG">
   </details>
     
-     
+
+
 ### Browser compatibility
 The website was tested on the following browsers:
 
@@ -239,15 +240,15 @@ The website was tested on the following browsers:
 *   Mozilla Firefox
 *   Microsoft Edge
 
-### Responsiveness
+#### Responsiveness
 All pages were tested to ensure responsiveness on screen sizes from 320px and upwards on the following browsers and devices
 
-#### Browsers
+##### Browsers
 *   Google Chrome
 *   Mozilla Firefox
 *   Microsoft Edge
 
-#### Devices
+##### Devices
 *   iPhone SE
 *   OnePlus Nord
 *   Dell laptop
