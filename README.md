@@ -8,7 +8,7 @@ In this game the user plays against the computer which will generate a random wo
 
 [Link to Hangman game](https://amardange.github.io/Hangman-quiz/)
 
-![image](docs/amiresponsive.JPG)
+![image](docs/amiresponsive.PNG)
 
 * [How to play](#How-to-play)
 * [User Experience (UX)](#User-Experience-(UX))
@@ -26,10 +26,10 @@ In this game the user plays against the computer which will generate a random wo
   * [Frameworks, Libraries & Programs Used](#Frameworks,-Libraries-&-Programs-Used)
 
 * [Testing](#Testing)
-  * [Fixed Bugs](#Fixed-Bugs)
-  * [Unfixed Bugs](#Unfixed-Bugs)
-  * [Manual Testing](#Manual-Testing)
   * [Validator Testing](#Validator-Testing)
+  * [Browser Compatibility](#Browser-Compatibility)
+  * [Test Cases and Results](Test-Cases-and-Results)
+  * [Fixed Bugs](#Fixed-Bugs)
 
 * [Deployment](#Deployment)
   
