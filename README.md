@@ -138,7 +138,7 @@ Below are the main features the user will come across when playing the game. The
 
 <details>
 <summary>Correct Guess</summary>
-<img src = "docs/navigationbar.PNG">
+<img src = "docs/correctguess.PNG">
 </details>
 
 ### Incorrect word guess
@@ -146,7 +146,7 @@ Below are the main features the user will come across when playing the game. The
 
 <details>
 <summary>Incorrect Guess</summary>
-<img src = "docs/navigationbar.PNG">
+<img src = "docs/incorrectword.png">
 </details>
 
 ### Chances Left
@@ -154,7 +154,7 @@ Below are the main features the user will come across when playing the game. The
 
 <details>
 <summary>Chances Left</summary>
-<img src = "docs/navigationbar.PNG">
+<img src = "docs/chancesleft.PNG">
 </details>
 
 
@@ -163,7 +163,7 @@ Below are the main features the user will come across when playing the game. The
 
 <details>
 <summary>Run out of time</summary>
-<img src = "docs/navigationbar.PNG">
+<img src = "docs/timeout.PNG">
 </details>
 
 
@@ -172,7 +172,7 @@ Below are the main features the user will come across when playing the game. The
 
 <details>
 <summary>Win Game</summary>
-<img src = "docs/navigationbar.PNG">
+<img src = "docs/wingame.PNG">
 </details>
 
 ### Lose Game
@@ -180,7 +180,7 @@ Below are the main features the user will come across when playing the game. The
 
 <details>
 <summary>Lose Game</summary>
-<img src = "docs/navigationbar.PNG">
+<img src = "docs/losewinpage.PNG">
 </details>
 
 ### New Game Button
@@ -188,7 +188,7 @@ Below are the main features the user will come across when playing the game. The
 
 <details>
 <summary>New Game</summary>
-<img src = "docs/navigationbar.PNG">
+<img src = "docs/newgamebutton.PNG">
 </details>
  
 
