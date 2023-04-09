@@ -225,7 +225,7 @@ Below are the main features the user will come across when playing the game. The
  
  - [JShint Validator](https://jshint.com/)
 
-    - result for script.js
+    - result for script.js : No errors where found by the official JSHint validator
 
   <details>
   <summary>JS Validator</summary>
@@ -256,7 +256,7 @@ Below are the main features the user will come across when playing the game. The
 1. The incorrect guesses were displaying above the game over display for when the user uses all tries and is hanged.
   This was resolved by simply adding an if statement so that when TRIES = 0 this is not displayed to the game over screen.
 
-2. On mobile device responsiveness is not good so as per suggestion by my mentor I use justify-content space-around and give canvas width 100% and now it is working on mobiles very nicely.
+2. On mobile device responsiveness is not good so as per suggestion by my mentor I use justify-content space-around and give canvas width 100% and now it is working on mobiles very nicely and on "new game pop page was not perfectly aligned hence I have fixed position of New game pop up window.
 
 
 ## Deployment 
@@ -285,13 +285,12 @@ The procedure for deployment followed the "Creating your site" steps provided in
 
 
 ### Media 
-- The icons in the header, footer and on the back of the flip-cards were taken from [Font Awesome](https://fontawesome.com/)
 - The fonts used were imported from [Google Fonts](https://fonts.google.com/)
-- All images were downloaded from [Google](https://www.google.de/)
+- All some information reagarding code was taken from [Google](https://www.google.de/)
 
 
 ### Acknowledgements 
-- Thank you to my mentor Sandeep Aggarwal who gave me very good advice and feedback on how to plan and execute this project and who provided me with lots of pointers on resources to help select colours and images and well as resources to help with coding and testing.
-- Thank you to anyone taking the time to view my first project. Special thanks to the Slack community and the below individuals:
+- Thank you to my mentor Sandeep Aggarwal who gave me very good advice and feedback on how to plan and execute this project and who provided me with lots of pointers on resources to help select colours and ideas and well as resources to help with coding and testing.
+- Special thanks to the Slack community
 I would like to thank:-
     * My colleagues from the Code Institute who help to test my code and gave me some wonderful feedback.
