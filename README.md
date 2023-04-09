@@ -114,7 +114,7 @@ Below are the main features the user will come across when playing the game. The
 <img src = "docs/startpage.PNG">
 </details>
 
-### Game Option Page
+#### Game Option Page
  - When user clicked on "Start" Button then second page will apppear with three option i.e. Fruits, Animal, Countries.
  - Also user can see Hangman draw window below of alphabet letters.
 
@@ -123,7 +123,7 @@ Below are the main features the user will come across when playing the game. The
 <img src = "docs/gamefrontpage.PNG">
 </details>
 
-### Select Option Button
+#### Select Option Button
  - User has to select one option from fruits, Animals, Country to play game.
  - Once user select one option then window will show all alphabets to select word
  - Also timer of 60 second and chances left tab will be appear.
@@ -133,7 +133,7 @@ Below are the main features the user will come across when playing the game. The
 <img src = "docs/gamapagewithoption.PNG">
 </details>
 
-### Correct word guess
+#### Correct word guess
  - If the user guess is correct, clear feedback is provided confirming the letter is in the word. The word to be guessed is updated for that letter wherever it occurs in the word replacing the underscore's.
 
 <details>
@@ -141,7 +141,7 @@ Below are the main features the user will come across when playing the game. The
 <img src = "docs/correctguess.PNG">
 </details>
 
-### Incorrect word guess
+#### Incorrect word guess
  - If the user guess is incorrect, clear feedback is provided confirming the letter is not in the word. The incorrect guess is added to "Incorrect guesses: ", the hangman image is updated and the user is updated on the number of attempts they have left to guess the word.
 
 <details>
@@ -149,7 +149,7 @@ Below are the main features the user will come across when playing the game. The
 <img src = "docs/incorrectword.png">
 </details>
 
-### Chances Left
+#### Chances Left
  - If the user runs out of tries, game over is displayed with the hangman image completed & chances left will be zero. The user is informed of the complete word to provide them with some resolution. 
 
 <details>
@@ -158,7 +158,7 @@ Below are the main features the user will come across when playing the game. The
 </details>
 
 
-### Run out of time
+#### Run out of time
 4. If the user runs out of time with 60 second, game over is displayed with the hangman image completed. The user is informed of the complete word to provide them with some resolution.
 
 <details>
@@ -167,7 +167,7 @@ Below are the main features the user will come across when playing the game. The
 </details>
 
 
-### Win Game
+#### Win Game
  - If the user guesses all the correct letters while they have tries & time remaining, They are rewarded with a win message confirming what the word was. 
 
 <details>
@@ -175,7 +175,7 @@ Below are the main features the user will come across when playing the game. The
 <img src = "docs/wingame.PNG">
 </details>
 
-### Lose Game
+#### Lose Game
  - Whether the user loses the game, then computer will show follow up window with Lose game messsage and Correct answer will be displayed. Also "new game" button will be displayes
 
 <details>
@@ -183,14 +183,13 @@ Below are the main features the user will come across when playing the game. The
 <img src = "docs/losewinpage.PNG">
 </details>
 
-### New Game Button
+#### New Game Button
  - Whether the user wins or lose the game and user wants to play it again, then there is "New Game" button option is provided and user can be proceed if they want to play game again.
 
 <details>
 <summary>New Game</summary>
 <img src = "docs/newgamebutton.PNG">
 </details>
-
 
 - - -
 
