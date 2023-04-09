@@ -192,12 +192,6 @@ Below are the main features the user will come across when playing the game. The
 </details>
 
 
-### How these features support the User Stories
-
-    - The User Stories in the [User Experience (UX)](#user-experience-ux) part of this document are numbered and categorised into groups A (Client Goals), B (first time visitor) and C (returning visitor).  The existing features are listed above.  Below is a traceability matrix cross-referencing the user stories with the features, illustrating which features support which stories :
-
-    ![User Story Feature Matrix]()
-
 - - -
 
 ## Technologies Used
