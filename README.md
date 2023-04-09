@@ -227,10 +227,10 @@ Below are the main features the user will come across when playing the game. The
 
     - result for script.js
 
- <details>
-<summary>New Game</summary>
-<img src = "docs/newgamebutton.PNG">
-</details>
+  <details>
+  <summary>JS Validator</summary>
+  <img src = "docs/jshint.PNG">
+  </details>
     
      
 ### Browser Compatibility
