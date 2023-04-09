@@ -217,14 +217,11 @@ Below are the main features the user will come across when playing the game. The
 
 - [HTML Validator](https://validator.w3.org/)
 
-    - result for [index.html](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Famardange.github.io%2FArchana-Bazaar%2Findex.html)
-    - result for [books.html](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Famardange.github.io%2FArchana-Bazaar%2Fbooks.html)
-    - result for [gallery.html](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Famardange.github.io%2FArchana-Bazaar%2Fgallery.html)
-    - result for [contact.html](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Famardange.github.io%2FArchana-Bazaar%2Fcontact.html)
+    - result for [index.html](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Famardange.github.io%2FHangman-quiz%2Findex.html)
 
 - [CSS Validator](https://jigsaw.w3.org/css-validator/)
 
-    - result for [styles.css](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Famardange.github.io%2FArchana-Bazaar%2Fstyle.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+    - result for [styles.css](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Famardange.github.io%2FHangman-quiz%2Fstyle.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
      
 ### Browser Compatibility
 
