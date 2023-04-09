@@ -260,7 +260,7 @@ All pages were tested to ensure responsiveness on screen sizes from 320px and up
     
     <details>
       <summary>Test Case & Results</summary>
-      <img src = "docs/manual_testing.png">
+      <img src = "docs/manualtesting.png">
       </details> 
 
 
