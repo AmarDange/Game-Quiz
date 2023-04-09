@@ -222,6 +222,16 @@ Below are the main features the user will come across when playing the game. The
 - [CSS Validator](https://jigsaw.w3.org/css-validator/)
 
     - result for [styles.css](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Famardange.github.io%2FHangman-quiz%2Fstyle.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+ 
+ - [JShint Validator](https://jshint.com/)
+
+    - result for script.js
+
+ <details>
+<summary>New Game</summary>
+<img src = "docs/newgamebutton.PNG">
+</details>
+    
      
 ### Browser Compatibility
 
