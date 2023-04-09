@@ -111,7 +111,7 @@ Below are the main features the user will come across when playing the game. The
 
 <details>
 <summary>Start Button</summary>
-<img src = "docs/navigationbar.PNG">
+<img src = "docs/startpage.PNG">
 </details>
 
 ### Game Option Page
@@ -120,7 +120,7 @@ Below are the main features the user will come across when playing the game. The
 
 <details>
 <summary>Game Option Page</summary>
-<img src = "docs/navigationbar.PNG">
+<img src = "docs/gamefrontpage.PNG">
 </details>
 
 ### Select Option Button
@@ -130,7 +130,7 @@ Below are the main features the user will come across when playing the game. The
  
 <details>
 <summary>Option Page</summary>
-<img src = "docs/navigationbar.PNG">
+<img src = "docs/gamapagewithoption.PNG">
 </details>
 
 ### Correct word guess
