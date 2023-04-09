@@ -233,14 +233,27 @@ Below are the main features the user will come across when playing the game. The
   </details>
     
      
-### Browser Compatibility
+### Browser compatibility
+The website was tested on the following browsers:
 
-- Testing has been carried out on the following browsers :
-    - Chrome Version 90.0.4430.212 (Official Build) (64-bit)
-    - Firefox Version 88.0.1 (64-bit)
-    - Edge Version 90.0.818.62 (Official build) (64-bit)
-    - Safari on macOS Catalina (Safari  Version 14.0.3)
-    
+*   Google Chrome
+*   Mozilla Firefox
+*   Microsoft Edge
+
+### Responsiveness
+All pages were tested to ensure responsiveness on screen sizes from 320px and upwards on the following browsers and devices
+
+#### Browsers
+*   Google Chrome
+*   Mozilla Firefox
+*   Microsoft Edge
+
+#### Devices
+*   iPhone SE
+*   OnePlus Nord
+*   Dell laptop
+
+
 ### Test Cases and Results
 
 - The below table details the test cases that were used, the results and a cross-reference to the Feature ID that each test case exercised:
