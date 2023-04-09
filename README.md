@@ -276,5 +276,18 @@ The procedure for deployment followed the "Creating your site" steps provided in
 - On the website of the w3schools I found a lot of information and codes for bugs and small changes to make.
 - Varies parts of the website were inspired by the love math walkthrough project from Code institute.
 
+### Code
+- Code on how to do the fade-in of the hero image came from information on this page : [CSS Image fade-in tutorial](https://blog.hubspot.com/website/css-fade-in)
+- Code on how to include google map with marker was based on code from this site :  [How to embed Google Map](https://www.maps.ie/create-google-map/)
+- Code on how to implement hover image was based on instructions from [YouTube Tutorial](https://www.youtube.com/watch?v=Zz8A4NqoLrE)
+
+### Media 
+- The icons in the header, footer and on the back of the flip-cards were taken from [Font Awesome](https://fontawesome.com/)
+- The fonts used were imported from [Google Fonts](https://fonts.google.com/)
+- All images were downloaded from [Google](https://www.google.de/)
+- 
 ### Acknowledgements 
-Thank you to anyone taking the time to view my second project. Special thanks to the Slack community.
+- Thank you to my mentor Sandeep Aggarwal who gave me very good advice and feedback on how to plan and execute this project and who provided me with lots of pointers on resources to help select colours and images and well as resources to help with coding and testing.
+- Thank you to anyone taking the time to view my first project. Special thanks to the Slack community and the below individuals:
+I would like to thank:-
+    * My colleagues from the Code Institute who help to test my code and gave me some wonderful feedback.
