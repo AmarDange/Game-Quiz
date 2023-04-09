@@ -202,4 +202,3 @@ The procedure for deployment followed the "Creating your site" steps provided in
 
 ### Acknowledgements 
 Thank you to anyone taking the time to view my second project. Special thanks to the Slack community.
-
