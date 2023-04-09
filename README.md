@@ -159,7 +159,7 @@ Below are the main features the user will come across when playing the game. The
 
 
 #### Run out of time
-4. If the user runs out of time with 60 second, game over is displayed with the hangman image completed. The user is informed of the complete word to provide them with some resolution.
+ - If the user runs out of time with 60 second, game over is displayed with the hangman image completed. The user is informed of the complete word to provide them with some resolution.
 
 <details>
 <summary>Run out of time</summary>
