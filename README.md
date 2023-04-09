@@ -41,25 +41,26 @@ In this game the user plays against the computer which will generate a random wo
 
 ## How to play
 
-The object of the game is to figure out the unknown word by guessing letters. 
+The object of the game is to figure out the unknown word by guessing letters within three options (fruits, Animal, Countries). 
 
 The length of the word is explicitly stated and is marked by underscores for each letter to be guessed. 
 If the letter guessed by the user is in the unknown word it will display by replacing the underscores wherever the letter occurs.
 
-If the guessed letter is not in the unknown word the user will lose a try. This will correspond to a person on the gallow being drawn, one part for each incorrect letter guessed. 
-i.e. in the order: head, body, left arm, right arm, left leg, right leg.
+If the guessed letter is not in the unknown word the user will lose a try. This will correspond to a person on the gallow being drawn & also payer will lose a chance, one part for each incorrect letter guessed. 
+i.e. in the order: head, body, left arm, right arm, left leg, right leg and chances left option will be decrease by a number.
 
 As such the user will have to guess the word before the drawing is complete and they are hanged.
+Also user has to complete the game within Timer of 60 second.
 If the user successfully guesses the word before they run out of tries they win the game.
 
-To assist the user, a hint is provided that words to be guessed in this game are animals.
+To assist the user, a hint is provided that words to be guessed within the option for example if he/she has selected option animals then he/she can think about word from only names of animal and same is applicable for remaining option.
 
 - - -
 
 ## User Experience (UX)
 
 ### Initial Discussion
-In this hangman game the user plays against the computer to guess the word and win the game before they run out of tries and are hanged. 
+In this hangman game the user plays against the computer to guess the word and win the game before they run out of tries, time and are hanged. 
 
 The target audience is anyone interested in playing a game of hangman. This could be a familiar childhood game for some but there are instructions provided for those who are new to the game.
 
@@ -68,7 +69,7 @@ The target audience is anyone interested in playing a game of hangman. This coul
 
 ### Goals
 
-#### Client Goals
+#### A. Client Goals
 * To entertain users
 * To be able to learn how to play
 * To make it easy for users to interact with the game
@@ -76,7 +77,7 @@ The target audience is anyone interested in playing a game of hangman. This coul
 * Win or lose, to play the game to completion without issue
 * To be able to choose to play again or quit
 
-#### First Time Visitor Goals
+#### B. First Time Visitor Goals
 * I want to be able to learn how to play.
 * I want to be informed on what the issue is if an invalid input is made.
 * I want to be given instant feedback if a correct or incorrect guess is made.
@@ -84,7 +85,7 @@ The target audience is anyone interested in playing a game of hangman. This coul
 * I want to be informed when the game is over, if I've won or lost.
 * I want to be able to play again or quit.
 
-#### Returning Visitor Goals
+#### C. Returning Visitor Goals
 * I want to be able to play the game multiple times with a new word.
 
 - - -
